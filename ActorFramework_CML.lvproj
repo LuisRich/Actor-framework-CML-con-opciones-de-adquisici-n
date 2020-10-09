@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="19008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -13,8 +14,9 @@
 		<Item Name="User Interface" Type="Folder">
 			<Item Name="GUI_Actor.lvlib" Type="Library" URL="../GUI_Actor/GUI_Actor.lvlib"/>
 		</Item>
-		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
+		<Item Name="Logging_txt.lvlib" Type="Library" URL="../Logging_txt/Logging_txt.lvlib"/>
 		<Item Name="Signal_Gen.lvlib" Type="Library" URL="../Signal_Gen/Signal_Gen.lvlib"/>
+		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
