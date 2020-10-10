@@ -5,6 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Abstract Messages for Caller" Type="Folder"/>
 	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="signal_type Msg.lvclass" Type="LVClass" URL="../Signal_Gen Messages/signal_type Msg/signal_type Msg.lvclass"/>
 		<Item Name="Start_Stop Msg.lvclass" Type="LVClass" URL="../Signal_Gen Messages/Start_Stop Msg/Start_Stop Msg.lvclass"/>
 	</Item>
 	<Item Name="Signal_Gen.lvclass" Type="LVClass" URL="../Signal_Gen/Signal_Gen.lvclass"/>

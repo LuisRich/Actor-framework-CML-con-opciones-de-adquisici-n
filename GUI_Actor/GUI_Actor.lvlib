@@ -8,6 +8,8 @@
 		<Item Name="File_path Msg.lvclass" Type="LVClass" URL="../../GUI_Actor Messages/File_path Msg/File_path Msg.lvclass"/>
 		<Item Name="Graph_signal Msg.lvclass" Type="LVClass" URL="../../GUI_Actor Messages/Graph_signal Msg/Graph_signal Msg.lvclass"/>
 		<Item Name="Save_enable Msg.lvclass" Type="LVClass" URL="../../GUI_Actor Messages/Save_enable Msg/Save_enable Msg.lvclass"/>
+		<Item Name="Select_format_file Msg.lvclass" Type="LVClass" URL="../../GUI_Actor Messages/Select_format_file Msg/Select_format_file Msg.lvclass"/>
+		<Item Name="Signal_type Msg.lvclass" Type="LVClass" URL="../../GUI_Actor Messages/Signal_type Msg/Signal_type Msg.lvclass"/>
 		<Item Name="Start_Stop Msg.lvclass" Type="LVClass" URL="../../GUI_Actor Messages/Start_Stop Msg/Start_Stop Msg.lvclass"/>
 	</Item>
 	<Item Name="GUI_Actor.lvclass" Type="LVClass" URL="../GUI_Actor.lvclass"/>

@@ -14,9 +14,19 @@
 		<Item Name="User Interface" Type="Folder">
 			<Item Name="GUI_Actor.lvlib" Type="Library" URL="../GUI_Actor/GUI_Actor.lvlib"/>
 		</Item>
-		<Item Name="Logging_txt.lvlib" Type="Library" URL="../Logging_txt/Logging_txt.lvlib"/>
-		<Item Name="Signal_Gen.lvlib" Type="Library" URL="../Signal_Gen/Signal_Gen.lvlib"/>
+		<Item Name="Logging Actor" Type="Folder">
+			<Item Name="TXT" Type="Folder">
+				<Item Name="Logging_txt.lvlib" Type="Library" URL="../Logging_txt/Logging_txt.lvlib"/>
+			</Item>
+			<Item Name="TDMS" Type="Folder">
+				<Item Name="Logging_tdms.lvlib" Type="Library" URL="../Logging_tdms/Logging_tdms.lvlib"/>
+			</Item>
+		</Item>
+		<Item Name="Signal_Generation_NO_Interface" Type="Folder">
+			<Item Name="Signal_Gen.lvlib" Type="Library" URL="../Signal_Gen/Signal_Gen.lvlib"/>
+		</Item>
 		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
+		<Item Name="Prueba_p_crear_ruta.vi" Type="VI" URL="../Prueba_p_crear_ruta.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
@@ -28,6 +38,13 @@
 				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="Time-Delay Override Options.ctl" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delay Override Options.ctl"/>
+				<Item Name="Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Waveform Array To Dynamic.vi"/>
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
+				<Item Name="ex_Modify Signal Name.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_Modify Signal Name.vi"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
+				<Item Name="Move t0 to the end.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Move t0 to the end.vi"/>
+				<Item Name="Ex_Extract Single Tone.vi" Type="VI" URL="/&lt;vilib&gt;/express/express analysis/ToneBlock.llb/Ex_Extract Single Tone.vi"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
