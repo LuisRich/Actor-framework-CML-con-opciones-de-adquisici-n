@@ -7,6 +7,8 @@
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Item Name="File_path Msg.lvclass" Type="LVClass" URL="../../GUI_Actor Messages/File_path Msg/File_path Msg.lvclass"/>
 		<Item Name="Graph_signal Msg.lvclass" Type="LVClass" URL="../../GUI_Actor Messages/Graph_signal Msg/Graph_signal Msg.lvclass"/>
+		<Item Name="S_Amplitud Msg.lvclass" Type="LVClass" URL="../../GUI_Actor Messages/S_Amplitud Msg/S_Amplitud Msg.lvclass"/>
+		<Item Name="S_Frecuencia Msg.lvclass" Type="LVClass" URL="../../GUI_Actor Messages/S_Frecuencia Msg/S_Frecuencia Msg.lvclass"/>
 		<Item Name="Save_enable Msg.lvclass" Type="LVClass" URL="../../GUI_Actor Messages/Save_enable Msg/Save_enable Msg.lvclass"/>
 		<Item Name="Select_format_file Msg.lvclass" Type="LVClass" URL="../../GUI_Actor Messages/Select_format_file Msg/Select_format_file Msg.lvclass"/>
 		<Item Name="Signal_type Msg.lvclass" Type="LVClass" URL="../../GUI_Actor Messages/Signal_type Msg/Signal_type Msg.lvclass"/>
