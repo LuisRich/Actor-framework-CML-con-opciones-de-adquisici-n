@@ -25,8 +25,23 @@
 		<Item Name="Signal_Generation_NO_Interface" Type="Folder">
 			<Item Name="Signal_Gen.lvlib" Type="Library" URL="../Signal_Gen/Signal_Gen.lvlib"/>
 		</Item>
+		<Item Name="Contador_GUI" Type="Folder">
+			<Item Name="Contador_Bin_Actor.lvlib" Type="Library" URL="../Contador_Bin_Actor/Contador_Bin_Actor.lvlib"/>
+		</Item>
+		<Item Name="Aumentar_Contador" Type="Folder">
+			<Item Name="Aumentar_contador.lvlib" Type="Library" URL="../Aumentar_contador/Aumentar_contador.lvlib"/>
+		</Item>
+		<Item Name="Logging_Contador" Type="Folder">
+			<Item Name="Txt" Type="Folder">
+				<Item Name="Logging_Contador_Actor.lvlib" Type="Library" URL="../Logging_Contador_Actor/Logging_Contador_Actor.lvlib"/>
+			</Item>
+			<Item Name="TDMS" Type="Folder">
+				<Item Name="Logging_Contador_Actor_TDMS.lvlib" Type="Library" URL="../Logging_Contador_Actor_TDMS/Logging_Contador_Actor_TDMS.lvlib"/>
+			</Item>
+		</Item>
 		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
 		<Item Name="Prueba_p_crear_ruta.vi" Type="VI" URL="../Prueba_p_crear_ruta.vi"/>
+		<Item Name="Launcher_contador.vi" Type="VI" URL="../Contador_Bin_Actor/Launcher_contador.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
