@@ -42,6 +42,7 @@
 		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
 		<Item Name="Prueba_p_crear_ruta.vi" Type="VI" URL="../Prueba_p_crear_ruta.vi"/>
 		<Item Name="Launcher_contador.vi" Type="VI" URL="../Contador_Bin_Actor/Launcher_contador.vi"/>
+		<Item Name="Launcher General.vi" Type="VI" URL="../Launcher General.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
